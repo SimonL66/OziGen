@@ -1,1 +1,0 @@
-gcc -static -O2 makeqct.cpp compress.cpp qctcoef.cpp common\palette.cpp ..\lambert93.cpp xmath\constant.c xmath\shift.c xmath\xadd.c xmath\xdiv.c xmath\xmul.c xmath\xneg.c xmath\xprcmp.c xmath\xsigerr.c xmath\xtodbl.c ..\libz.a -lstdc++
