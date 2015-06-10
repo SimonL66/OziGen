@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="MapLib">
+      <UniqueIdentifier>{730599c4-22ff-4cc0-a397-f49b12b3244d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xmath">
+      <UniqueIdentifier>{774ea653-b723-4205-ae48-07987c4c4f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xmath\mp">
+      <UniqueIdentifier>{c5c033b8-720d-4210-addb-99e66869a08c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\MapLib\CoordConv.cpp">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\db_TL3.cpp">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\Gpx.cpp">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\License.c">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\map_conv.cpp">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\MapLib.cpp">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\Maptech.cpp">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\MemoryMap.cpp">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\mmmath.c">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\Palette.cpp">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\Route.cpp">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\Track.cpp">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\Tracklogs.cpp">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\zip.cpp">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="xmath\constant.c">
+      <Filter>xmath</Filter>
+    </ClCompile>
+    <ClCompile Include="xmath\shift.c">
+      <Filter>xmath</Filter>
+    </ClCompile>
+    <ClCompile Include="xmath\xadd.c">
+      <Filter>xmath</Filter>
+    </ClCompile>
+    <ClCompile Include="xmath\xdiv.c">
+      <Filter>xmath</Filter>
+    </ClCompile>
+    <ClCompile Include="xmath\xmul.c">
+      <Filter>xmath</Filter>
+    </ClCompile>
+    <ClCompile Include="xmath\xneg.c">
+      <Filter>xmath</Filter>
+    </ClCompile>
+    <ClCompile Include="xmath\xprcmp.c">
+      <Filter>xmath</Filter>
+    </ClCompile>
+    <ClCompile Include="xmath\xsigerr.c">
+      <Filter>xmath</Filter>
+    </ClCompile>
+    <ClCompile Include="xmath\xtodbl.c">
+      <Filter>xmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapLib\Lambert93.c">
+      <Filter>MapLib</Filter>
+    </ClCompile>
+    <ClCompile Include="WebMapServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateBirdseye.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateKMZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateOzi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateQCT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GPS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IGN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapExtents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTabCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OSPro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OziGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OziGenDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qctcoef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabTrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TracklogsDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="txf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CH1903.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MapLib\CoordConv.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\db_TL3.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\Gpx.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\Lambert93.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\License.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\map_conv.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\MapLib.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\Maptech.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\MemoryMap.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\mmmath.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\Palette.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\png.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\pngconf.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\Route.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\targetver.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\Track.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\Tracklogs.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\zip.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapLib\zlib.h">
+      <Filter>MapLib</Filter>
+    </ClInclude>
+    <ClInclude Include="xmath\hpaconf.h">
+      <Filter>xmath</Filter>
+    </ClInclude>
+    <ClInclude Include="xmath\xpre.h">
+      <Filter>xmath</Filter>
+    </ClInclude>
+    <ClInclude Include="xmath\mp\const07.h">
+      <Filter>xmath\mp</Filter>
+    </ClInclude>
+    <ClInclude Include="xmath\mp\const11.h">
+      <Filter>xmath\mp</Filter>
+    </ClInclude>
+    <ClInclude Include="xmath\mp\const15.h">
+      <Filter>xmath\mp</Filter>
+    </ClInclude>
+    <ClInclude Include="xmath\mp\const19.h">
+      <Filter>xmath\mp</Filter>
+    </ClInclude>
+    <ClInclude Include="xmath\mp\const23.h">
+      <Filter>xmath\mp</Filter>
+    </ClInclude>
+    <ClInclude Include="xmath\mp\const27.h">
+      <Filter>xmath\mp</Filter>
+    </ClInclude>
+    <ClInclude Include="xmath\mp\const31.h">
+      <Filter>xmath\mp</Filter>
+    </ClInclude>
+    <ClInclude Include="WebMapServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateBirdseye.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateKMZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateOzi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateQCT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EPSG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GPS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapExtents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTabCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OSPro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OziGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OziGenDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="proj_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qctcoef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerRequests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Servers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabTrack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TracklogsDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CH1903.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\OziGen.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OziGen.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OziGen.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="proj.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\MapLib\libpng.lib">
+      <Filter>MapLib</Filter>
+    </Library>
+    <Library Include="..\MapLib\zlib.lib">
+      <Filter>MapLib</Filter>
+    </Library>
+    <Library Include="proj_i.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
